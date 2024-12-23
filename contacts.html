@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.CSS">
+    <title>Contacts</title>
+</head>
+<body>
+  <header>
+    <header>
+      <a href="homepage.html"><p align="margin-left"><img src="LOGO01.png"; width="100"> </p> </a>
+        <nav>
+          <div class="dropdown">
+              <div class="menun">
+              <div class="menu"></div>
+              <div class="menu"></div>
+              <div class="menu"></div>
+          </div>
+              <div class="content">
+                  <a href="homepage.html">Home</a>
+                  <a href="categories.html">Products</a>
+                  <a href="laboratoryexam (1).html">About</a>
+                  <a href="contacts.html">Contacts</a>
+                  <a href="services.html">Services</a>
+      
+  
+              </div>
+          </div>    
+         </nav>
+    </header>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="NAME" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="EMAIL" required>
+
+      <label for="number">Phone Number (Optional):</label>
+      <input type="text" id="number" name="NUMBER">
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="dropdown" required>
+        <option value="" disabled selected>Select Subject</option>
+        <option value="concerns">Concerns</option>
+        <option value="instructions">Instructions</option>
+        <option value="return_goods">Return of Goods</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="MESSAGE" rows="4" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+</body>
+</html>

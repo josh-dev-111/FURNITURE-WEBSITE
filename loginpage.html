@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Log In or Sign Up</title>
+</head>
+<body>
+    <h2>FurniFab</h2>
+    <p><i>Make your home comfy and aesthetically pleasing</i></p>
+    <hr>
+
+    <div class="container">
+        <h3>Create Account</h3>
+        <form id="signupForm" action="homepage.html" method="post" onsubmit="return validateForm()">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" class="input-field" placeholder="Enter your email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="input-field" placeholder="Enter your password" required>
+
+            <label for="confirmPassword">Repeat your password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" class="input-field" placeholder="Repeat your password" required>
+            
+            <div class="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to all statements in the Terms of Service</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+
+        <div class="link">
+            Already have an account? <a href="login.html">Log In</a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("cover  photo.jpeg (2).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Container*/
+.form-container h1 {
+    
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/*h1 center*/
+h1{
+    text-align: center;
+}
+
+/*sa looks ng mismong registration form*/
+.regform{
+    background-color: antiquewhite;
+    border: solid  antiquewhite;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+}
+
+/*para sa sign in*/
+button {
+    background: rgb(188, 153, 127);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+/*TRANSITION color*/
+button:hover {
+    background: gray;
+}
+ /**/
+.baba{
+    text-align: center;
+}
+   /*FOR THE LABEL */
+label{
+    font-weight: bold;
+}
+   /*DESIGN NG BOXES*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;    
+}

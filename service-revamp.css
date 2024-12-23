@@ -1,0 +1,200 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+
+}
+body{
+    background-color: #D3D3D3;
+}
+
+
+header {
+  background-color: wheat;
+    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+    position: fixed;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: x-large;
+    font-size: medium;
+    font-weight: 1000;
+  }
+
+  li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 
+    
+  }
+
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .services{
+        display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 10px; 
+        }
+        .service-container {
+            text-align: center;
+            background-color: beige;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .service-container  img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .service-container  h3 {
+            margin-top: 15px;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #333;
+        }
+        .service-container  p {
+            margin-top: 10px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .service-container img:hover{
+            transform: scale(1.1);
+
+        }
+/* Footer Styling */
+.custom-footer {
+    /* Light grey background */
+   text-align: center;
+   
+   width: 100%; /* Subtle border at the top */
+  height: 100%;
+  margin-top: 200px; 
+ }
+ 
+ .custom-footer h5 {
+   font-family: 'Arial', sans-serif; /* Clean font for the heading */
+   color: #333;                    /* Dark color for the heading text */
+   font-size: 24px;                 /* Larger font size for better visibility */
+   margin-bottom: 20px;             /* Spacing below the heading */
+ }
+ 
+ .social-icons {
+   font-size: 30px;               /* Set icon size */
+   margin-bottom: 20px;            /* Space below the icons */
+ }
+ 
+ .social-icons a {
+               /* Default color for the icons */
+   margin: 0 15px;                 /* Add horizontal spacing between icons */
+   text-decoration: none;          /* Remove underline from links */
+         /* Smooth transition for hover effect */
+
+ }
+
+
+ footer i{
+   color:rgb(56, 0, 0);
+   transition: transform 0.3s ease;
+ 
+ }
+ footer i:hover{
+   color: #007bff;                 /* Change color on hover */
+     transform: scale(1.2);  
+ 
+ }
+ 
+ .social-icons i {
+   transition: transform 0.3s ease;  /* Smooth transformation for hover */
+ }
+ 
+ .custom-footer p {
+   font-family: 'Arial', sans-serif; /* Clean font for the copyright text */
+   color: #555;                     /* Lighter gray color for the text */
+   font-size: 14px;                  /* Smaller font size for the text */
+   margin-top: 20px;                 /* Space above the text */
+ }
+ 
+ /* Responsive design: Adjust layout on smaller screens */
+ @media (max-width: 600px) {
+   .social-icons {
+       font-size: 24px;  /* Reduce icon size on smaller screens */
+   }
+   
+   .custom-footer h5 {
+       font-size: 20px;  /* Adjust heading size on smaller screens */
+   }
+   
+   .custom-footer p {
+       font-size: 12px;  /* Adjust text size for copyright */
+   }
+ }
+   
+ .dropdown{
+  padding: 70px;
+  
+}
+
+
+
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 7px;
+  transition: background-color 0.5s ease;
+
+}
+
+.dropdown .content{
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 100px;
+  box-shadow:  2px 2px 5px black;
+  transition: background-color 0.5s ease;
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+.dropdown:hover button{
+  background-color: rgb(210, 153, 67);
+}
+
+.dropdown a:hover{
+  background-color: rgb(210, 153, 67);
+}
+
+.menu {
+  width: 30px;
+  height: 4px;
+  background-color: rgb(249, 249, 249);
+  margin: 6px 0;
+}
+.menun{
+  padding: 20px;
+
+}
